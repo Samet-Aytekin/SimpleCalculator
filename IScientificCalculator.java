@@ -1,6 +1,6 @@
 package simpleCalculator;
 
-public interface IScientificCalculator extends ICalculator {
+public interface IScientificCalculator {
 	public double sin(double angle);
 
 	public double cos(double angle);

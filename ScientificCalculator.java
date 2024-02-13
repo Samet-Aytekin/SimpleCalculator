@@ -4,14 +4,16 @@ public class ScientificCalculator implements IScientificCalculator {
 
 	@Override
 	public double sin(double angle) {
-
-		return Math.sin(angle);
+		double angleInRadians = Math.toRadians(angle);
+		double sinValue = Math.sin(angleInRadians);
+		return sinValue;
 	}
 
 	@Override
 	public double cos(double angle) {
-
-		return Math.cos(angle);
+		double angleInRadians = Math.toRadians(angle);
+		double cosValue = Math.cos(angleInRadians);
+		return cosValue;
 	}
 
 	@Override
